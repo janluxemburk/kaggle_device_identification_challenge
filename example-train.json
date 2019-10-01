@@ -1,0 +1,970 @@
+{
+    "mac": "80:5e:c0:41:ad:39",
+    "ip": "192.168.0.147",
+    "services": [
+        {
+            "port": 80,
+            "protocol": "tcp"
+        },
+        {
+            "port": 443,
+            "protocol": "tcp"
+        },
+        {
+            "port": 1434,
+            "protocol": "udp"
+        },
+        {
+            "port": 5060,
+            "protocol": "tcp"
+        },
+        {
+            "port": 5351,
+            "protocol": "udp"
+        },
+        {
+            "port": 5353,
+            "protocol": "udp"
+        },
+        {
+            "port": 5683,
+            "protocol": "udp"
+        }
+    ],
+    "device_class": "IP_PHONE",
+    "device_id": "5347ada9-925c-400e-8a7c-9aedd3c142f6"
+}
+    {
+    "mac": "44:e1:37:a2:ec:c1",
+    "ip": "192.168.1.109",
+    "services": [
+        {
+            "port": 80,
+            "protocol": "tcp"
+        },
+        {
+            "port": 443,
+            "protocol": "tcp"
+        },
+        {
+            "port": 7547,
+            "protocol": "tcp"
+        },
+        {
+            "port": 8080,
+            "protocol": "tcp"
+        },
+        {
+            "port": 8081,
+            "protocol": "tcp"
+        },
+        {
+            "port": 8091,
+            "protocol": "tcp"
+        },
+        {
+            "port": 9098,
+            "protocol": "tcp"
+        }
+    ],
+    "upnp": [
+        {
+            "model_name": "Verizon Media Server",
+            "model_description": "Media Server",
+            "manufacturer": "ARRIS",
+            "device_type": "urn:schemas-upnp-org:device:MediaServer:1",
+            "services": [
+                "urn:upnp-org:serviceId:ContentDirectory",
+                "urn:upnp-org:serviceId:ConnectionManager"
+            ]
+        },
+        {
+            "model_name": "VMS1100",
+            "model_description": "Device Management",
+            "manufacturer": "ARRIS",
+            "device_type": "urn:schemas-upnp-org:device:ManageableDevice:2",
+            "services": [
+                "urn:upnp-org:serviceId:BasicManagement",
+                "urn:upnp-org:serviceId:ConfigurationManagement",
+                "urn:upnp-org:serviceId:DeviceProtection"
+            ]
+        },
+        {
+            "model_name": "VMS1100",
+            "model_description": "DIAL Server",
+            "manufacturer": "ARRIS",
+            "device_type": "urn:schemas-upnp-org:device:dial:1",
+            "services": [
+                "urn:upnp-org:serviceId:dial"
+            ]
+        }
+    ],
+    "ssdp": [
+        {
+            "st": "",
+            "nt": "upnp:rootdevice",
+            "location": "http://192.168.1.109:9098/device_description.xml",
+            "server": "ARRIS DIAL/1.7.2 UPnP/1.0 ARRIS Settop Box",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "upnp:rootdevice",
+            "location": "http://192.168.1.109:8091/XD/21e13e66-1dd2-11b2-9b87-44e137a2ec6a",
+            "server": "Allegro-Software-RomPager/5.41 UPnP/1.0 ARRIS Settop Box",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-upnp-org:service:BasicManagement:2",
+            "location": "http://192.168.1.109:8091/XD/21e13e66-1dd2-11b2-9b87-44e137a2ec6a",
+            "server": "Allegro-Software-RomPager/5.41 UPnP/1.0 ARRIS Settop Box",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-upnp-org:device:ManageableDevice:2",
+            "location": "http://192.168.1.109:8091/XD/21e13e66-1dd2-11b2-9b87-44e137a2ec6a",
+            "server": "Allegro-Software-RomPager/5.41 UPnP/1.0 ARRIS Settop Box",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "uuid:21e13e66-1dd2-11b2-9b87-44e137a2ec6a",
+            "location": "http://192.168.1.109:8091/XD/21e13e66-1dd2-11b2-9b87-44e137a2ec6a",
+            "server": "Allegro-Software-RomPager/5.41 UPnP/1.0 ARRIS Settop Box",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-upnp-org:service:DeviceProtection:1",
+            "location": "http://192.168.1.109:8091/XD/21e13e66-1dd2-11b2-9b87-44e137a2ec6a",
+            "server": "Allegro-Software-RomPager/5.41 UPnP/1.0 ARRIS Settop Box",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-upnp-org:service:ConfigurationManagement:2",
+            "location": "http://192.168.1.109:8091/XD/21e13e66-1dd2-11b2-9b87-44e137a2ec6a",
+            "server": "Allegro-Software-RomPager/5.41 UPnP/1.0 ARRIS Settop Box",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "upnp:rootdevice",
+            "location": "http://192.168.1.109:8081/XD/2287141c-1dd2-11b2-b9c2-44e137a2ec6a",
+            "server": "Allegro-Software-RomPager/5.41 UPnP/1.0 ARRIS Settop Box",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "uuid:2287141c-1dd2-11b2-b9c2-44e137a2ec6a",
+            "location": "http://192.168.1.109:8081/XD/2287141c-1dd2-11b2-b9c2-44e137a2ec6a",
+            "server": "Allegro-Software-RomPager/5.41 UPnP/1.0 ARRIS Settop Box",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-upnp-org:device:MediaServer:1",
+            "location": "http://192.168.1.109:8081/XD/2287141c-1dd2-11b2-b9c2-44e137a2ec6a",
+            "server": "Allegro-Software-RomPager/5.41 UPnP/1.0 ARRIS Settop Box",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-upnp-org:service:ConnectionManager:1",
+            "location": "http://192.168.1.109:8081/XD/2287141c-1dd2-11b2-b9c2-44e137a2ec6a",
+            "server": "Allegro-Software-RomPager/5.41 UPnP/1.0 ARRIS Settop Box",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-upnp-org:service:ContentDirectory:1",
+            "location": "http://192.168.1.109:8081/XD/2287141c-1dd2-11b2-b9c2-44e137a2ec6a",
+            "server": "Allegro-Software-RomPager/5.41 UPnP/1.0 ARRIS Settop Box",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "upnp:rootdevice",
+            "location": "http://192.168.1.109:9098/device_description.xml",
+            "server": "ARRIS DIAL/1.7.2 UPnP/1.0 ARRIS Settop Box",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "uuid:2287141c-1dd2-11b2-b9c2-44e137a2ec6a",
+            "location": "http://192.168.1.109:8081/XD/2287141c-1dd2-11b2-b9c2-44e137a2ec6a",
+            "server": "Allegro-Software-RomPager/5.41 UPnP/1.0 ARRIS Settop Box",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "upnp:rootdevice",
+            "location": "http://192.168.1.109:8081/XD/2287141c-1dd2-11b2-b9c2-44e137a2ec6a",
+            "server": "Allegro-Software-RomPager/5.41 UPnP/1.0 ARRIS Settop Box",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-upnp-org:device:MediaServer:1",
+            "location": "http://192.168.1.109:8081/XD/2287141c-1dd2-11b2-b9c2-44e137a2ec6a",
+            "server": "Allegro-Software-RomPager/5.41 UPnP/1.0 ARRIS Settop Box",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-upnp-org:service:ContentDirectory:1",
+            "location": "http://192.168.1.109:8081/XD/2287141c-1dd2-11b2-b9c2-44e137a2ec6a",
+            "server": "Allegro-Software-RomPager/5.41 UPnP/1.0 ARRIS Settop Box",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-upnp-org:service:ConnectionManager:1",
+            "location": "http://192.168.1.109:8081/XD/2287141c-1dd2-11b2-b9c2-44e137a2ec6a",
+            "server": "Allegro-Software-RomPager/5.41 UPnP/1.0 ARRIS Settop Box",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-upnp-org:service:DeviceProtection:1",
+            "location": "http://192.168.1.109:8091/XD/21e13e66-1dd2-11b2-9b87-44e137a2ec6a",
+            "server": "Allegro-Software-RomPager/5.41 UPnP/1.0 ARRIS Settop Box",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-upnp-org:service:ConfigurationManagement:2",
+            "location": "http://192.168.1.109:8091/XD/21e13e66-1dd2-11b2-9b87-44e137a2ec6a",
+            "server": "Allegro-Software-RomPager/5.41 UPnP/1.0 ARRIS Settop Box",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-upnp-org:service:BasicManagement:2",
+            "location": "http://192.168.1.109:8091/XD/21e13e66-1dd2-11b2-9b87-44e137a2ec6a",
+            "server": "Allegro-Software-RomPager/5.41 UPnP/1.0 ARRIS Settop Box",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-upnp-org:device:ManageableDevice:2",
+            "location": "http://192.168.1.109:8091/XD/21e13e66-1dd2-11b2-9b87-44e137a2ec6a",
+            "server": "Allegro-Software-RomPager/5.41 UPnP/1.0 ARRIS Settop Box",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "uuid:21e13e66-1dd2-11b2-9b87-44e137a2ec6a",
+            "location": "http://192.168.1.109:8091/XD/21e13e66-1dd2-11b2-9b87-44e137a2ec6a",
+            "server": "Allegro-Software-RomPager/5.41 UPnP/1.0 ARRIS Settop Box",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "upnp:rootdevice",
+            "location": "http://192.168.1.109:8091/XD/21e13e66-1dd2-11b2-9b87-44e137a2ec6a",
+            "server": "Allegro-Software-RomPager/5.41 UPnP/1.0 ARRIS Settop Box",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "upnp:rootdevice",
+            "location": "http://192.168.1.109:9098/device_description.xml",
+            "server": "ARRIS DIAL/1.7.2 UPnP/1.0 ARRIS Settop Box",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-upnp-org:service:ConfigurationManagement:2",
+            "location": "http://192.168.1.109:8091/XD/21e13e66-1dd2-11b2-9b87-44e137a2ec6a",
+            "server": "Allegro-Software-RomPager/5.41 UPnP/1.0 ARRIS Settop Box",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-upnp-org:service:DeviceProtection:1",
+            "location": "http://192.168.1.109:8091/XD/21e13e66-1dd2-11b2-9b87-44e137a2ec6a",
+            "server": "Allegro-Software-RomPager/5.41 UPnP/1.0 ARRIS Settop Box",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "uuid:21e13e66-1dd2-11b2-9b87-44e137a2ec6a",
+            "location": "http://192.168.1.109:8091/XD/21e13e66-1dd2-11b2-9b87-44e137a2ec6a",
+            "server": "Allegro-Software-RomPager/5.41 UPnP/1.0 ARRIS Settop Box",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-upnp-org:device:ManageableDevice:2",
+            "location": "http://192.168.1.109:8091/XD/21e13e66-1dd2-11b2-9b87-44e137a2ec6a",
+            "server": "Allegro-Software-RomPager/5.41 UPnP/1.0 ARRIS Settop Box",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-upnp-org:service:BasicManagement:2",
+            "location": "http://192.168.1.109:8091/XD/21e13e66-1dd2-11b2-9b87-44e137a2ec6a",
+            "server": "Allegro-Software-RomPager/5.41 UPnP/1.0 ARRIS Settop Box",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "upnp:rootdevice",
+            "location": "http://192.168.1.109:8091/XD/21e13e66-1dd2-11b2-9b87-44e137a2ec6a",
+            "server": "Allegro-Software-RomPager/5.41 UPnP/1.0 ARRIS Settop Box",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-upnp-org:service:ContentDirectory:1",
+            "location": "http://192.168.1.109:8081/XD/2287141c-1dd2-11b2-b9c2-44e137a2ec6a",
+            "server": "Allegro-Software-RomPager/5.41 UPnP/1.0 ARRIS Settop Box",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-upnp-org:service:ConnectionManager:1",
+            "location": "http://192.168.1.109:8081/XD/2287141c-1dd2-11b2-b9c2-44e137a2ec6a",
+            "server": "Allegro-Software-RomPager/5.41 UPnP/1.0 ARRIS Settop Box",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-upnp-org:device:MediaServer:1",
+            "location": "http://192.168.1.109:8081/XD/2287141c-1dd2-11b2-b9c2-44e137a2ec6a",
+            "server": "Allegro-Software-RomPager/5.41 UPnP/1.0 ARRIS Settop Box",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "uuid:2287141c-1dd2-11b2-b9c2-44e137a2ec6a",
+            "location": "http://192.168.1.109:8081/XD/2287141c-1dd2-11b2-b9c2-44e137a2ec6a",
+            "server": "Allegro-Software-RomPager/5.41 UPnP/1.0 ARRIS Settop Box",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "upnp:rootdevice",
+            "location": "http://192.168.1.109:8081/XD/2287141c-1dd2-11b2-b9c2-44e137a2ec6a",
+            "server": "Allegro-Software-RomPager/5.41 UPnP/1.0 ARRIS Settop Box",
+            "user_agent": "",
+            "method": ""
+        }
+    ],
+    "device_class": "MEDIA_BOX",
+    "device_id": "2717684b-3937-4644-a33a-33f4226c43ec"
+}
+    {
+    "mac": "00:00:00:00:00:00",
+    "ip": "192.168.1.121",
+    "services": [
+        {
+            "port": 80,
+            "protocol": "tcp"
+        },
+        {
+            "port": 80,
+            "protocol": "tcp"
+        },
+        {
+            "port": 111,
+            "protocol": "tcp"
+        },
+        {
+            "port": 5353,
+            "protocol": "udp"
+        },
+        {
+            "port": 8080,
+            "protocol": "tcp"
+        },
+        {
+            "port": 56439,
+            "protocol": "tcp"
+        },
+        {
+            "port": 60006,
+            "protocol": "tcp"
+        }
+    ],
+    "upnp": [
+        {
+            "model_name": "Denon AVR-X2400H",
+            "manufacturer": "Denon",
+            "device_type": "urn:schemas-denon-com:device:AiosDevice:1",
+            "services": []
+        },
+        {
+            "model_name": "Denon AVR-X2400H",
+            "manufacturer": "Denon",
+            "device_type": "urn:schemas-upnp-org:device:MediaRenderer:1",
+            "services": [
+                "urn:upnp-org:serviceId:AVTransport",
+                "urn:upnp-org:serviceId:ConnectionManager",
+                "urn:upnp-org:serviceId:RenderingControl"
+            ]
+        },
+        {
+            "model_name": "Denon AVR-X2400H",
+            "manufacturer": "Denon",
+            "device_type": "urn:schemas-denon-com:device:AiosServices:1",
+            "services": [
+                "urn:denon-com:serviceId:ErrorHandler",
+                "urn:denon-com:serviceId:ZoneControl",
+                "urn:denon-com:serviceId:GroupControl"
+            ]
+        },
+        {
+            "model_name": "Denon AVR-X2400H",
+            "manufacturer": "Denon",
+            "device_type": "urn:schemas-denon-com:device:ACT-Denon:1",
+            "services": [
+                "urn:denon-com:serviceId:ACT"
+            ]
+        },
+        {
+            "model_name": "Denon AVR-X2400H",
+            "model_description": "Shares User defined folders and files to other Universal Plug and Play media devices.",
+            "manufacturer": "Denon",
+            "device_type": "urn:schemas-upnp-org:device:MediaServer:1",
+            "services": [
+                "urn:upnp-org:serviceId:ContentDirectory",
+                "urn:upnp-org:serviceId:ConnectionManager"
+            ]
+        }
+    ],
+    "ssdp": [
+        {
+            "st": "",
+            "nt": "urn:schemas-upnp-org:service:RenderingControl:1",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-upnp-org:service:AVTransport:1",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "uuid:cf2583ce-f896-14cc-0080-0005cde2625e",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-denon-com:device:AiosDevice:1",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "uuid:5cdaa5bc-2db2-1022-0080-0005cde2625e",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "upnp:rootdevice",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-upnp-org:device:MediaRenderer:1",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-upnp-org:service:ConnectionManager:1",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-upnp-org:service:ContentDirectory:1",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-upnp-org:device:MediaServer:1",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "uuid:e35f8c97-7b71-8ed9-e786-05f4c18e25ee",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-denon-com:service:ACT:1",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-denon-com:device:ACT-Denon:1",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "uuid:792faf7f-b97a-979e-dbf7-24ff3b5dada5",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-denon-com:service:GroupControl:1",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-denon-com:service:ZoneControl:2",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-denon-com:service:ErrorHandler:1",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-denon-com:device:AiosServices:1",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "uuid:bf87348f-27aa-1691-0080-0005cde2625e",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "uuid:5cdaa5bc-2db2-1022-0080-0005cde2625e",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-upnp-org:service:AVTransport:1",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-upnp-org:device:MediaRenderer:1",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "uuid:cf2583ce-f896-14cc-0080-0005cde2625e",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-denon-com:device:AiosDevice:1",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "upnp:rootdevice",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-denon-com:service:ZoneControl:2",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-denon-com:service:ErrorHandler:1",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-denon-com:device:AiosServices:1",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "uuid:bf87348f-27aa-1691-0080-0005cde2625e",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-upnp-org:service:RenderingControl:1",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-upnp-org:device:MediaServer:1",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "uuid:e35f8c97-7b71-8ed9-e786-05f4c18e25ee",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-denon-com:service:ACT:1",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-denon-com:device:ACT-Denon:1",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "uuid:792faf7f-b97a-979e-dbf7-24ff3b5dada5",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-denon-com:service:GroupControl:1",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-upnp-org:service:ConnectionManager:1",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-upnp-org:service:ContentDirectory:1",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "uuid:bf87348f-27aa-1691-0080-0005cde2625e",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-denon-com:device:AiosServices:1",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-denon-com:service:ErrorHandler:1",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-denon-com:service:ZoneControl:2",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-denon-com:service:GroupControl:1",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "uuid:792faf7f-b97a-979e-dbf7-24ff3b5dada5",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-denon-com:device:ACT-Denon:1",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-denon-com:service:ACT:1",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "uuid:e35f8c97-7b71-8ed9-e786-05f4c18e25ee",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-upnp-org:device:MediaServer:1",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-upnp-org:service:ContentDirectory:1",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-upnp-org:service:ConnectionManager:1",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-upnp-org:device:MediaRenderer:1",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "upnp:rootdevice",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "uuid:5cdaa5bc-2db2-1022-0080-0005cde2625e",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-denon-com:device:AiosDevice:1",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "uuid:cf2583ce-f896-14cc-0080-0005cde2625e",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-upnp-org:service:AVTransport:1",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        },
+        {
+            "st": "",
+            "nt": "urn:schemas-upnp-org:service:RenderingControl:1",
+            "location": "http://192.168.1.121:60006/upnp/desc/aios_device/aios_device.xml",
+            "server": "LINUX UPnP/1.0 Denon-Heos/139046",
+            "user_agent": "",
+            "method": ""
+        }
+    ],
+    "device_class": "AUDIO",
+    "device_id": "f1fc42f4-c794-4cc5-ac13-a5097d722d92",
+    "mdns_services": [
+        "_airplay._tcp.local.",
+        "_spotify-connect._tcp.local.",
+        "_raop._tcp.local.",
+        "_http._tcp.local."
+    ]
+}
+    {
+    "mac": "40:99:22:41:ac:a6",
+    "ip": "192.168.0.7",
+    "services": [
+        {
+            "port": 5353,
+            "protocol": "udp"
+        },
+        {
+            "port": 41800,
+            "protocol": "tcp"
+        }
+    ],
+    "device_class": "GAME_CONSOLE",
+    "device_id": "74ab1b5b-3cb6-4aee-8362-f3b2f016574c",
+    "mdns_services": [
+        "_spotify-connect._tcp.local."
+    ]
+}
+    {
+    "mac": "00:07:25:15:3a:fb",
+    "ip": "192.168.15.26",
+    "dhcp": [
+        {
+            "paramlist": "1,28,2,3,15,6,119,12,44,47,26,121,42"
+        }
+    ],
+    "device_class": "GENERIC_IOT",
+    "device_id": "1fe43d89-329d-40fe-b948-d1cbe0fe6c96"
+}
