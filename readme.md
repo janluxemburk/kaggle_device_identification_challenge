@@ -1,5 +1,5 @@
 ## IoT Device Identification Challenge
-My solution for kaggle challenge - https://www.kaggle.com/c/cybersecprague2019-challenge/overview. This is my first machine-learning project.
+My solution for kaggle challenge - https://www.kaggle.com/c/cybersecprague2019-challenge/overview
 
 - Example train data in example-train.json
 - Data description in data-readme.txt
