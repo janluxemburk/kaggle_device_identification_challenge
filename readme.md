@@ -8,5 +8,9 @@ For most columns, I extracted array of strings and converted them via MultiLabel
 
 Final accuracy was 0.95287.
 
-### Mac address database
+#### Other people solutions
+- https://github.com/kartol/Device-Identification-challenge/blob/master/cybersecprague2019.ipynb
+- https://github.com/xct/kaggle_device_identification_challenge/blob/master/kaggle_device_identification.ipynb
+
+#### Mac address database
  - https://macaddress.io/database/macaddress.io-db.json
