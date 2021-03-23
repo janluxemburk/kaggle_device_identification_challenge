@@ -4,7 +4,7 @@ My solution for Device Identification Kaggle challenge - https://www.kaggle.com/
 - Example train data in example-train.json
 - Data description in data-readme.txt
 
-For most columns, I extracted array of strings and converted them via MultiLabelBinarizer. I also filtered these labels by frequency, e.g. at least three times in train dataset. I also unified some labels like similar models of the same television and, for example, added printer label whenever there was a substring "printer" (see functions extract_upnp_labels and extract_ssdp_labels). This is how `known_*` arrays were created.
+For most columns, I extracted an array of strings and converted them via MultiLabelBinarizer. I also filtered these labels by frequency, e.g., at least three times in the training dataset. I also unified some labels like similar television models and, for example, added printer labels whenever there was a substring "printer" (see functions extract_upnp_labels and extract_ssdp_labels). This is how `known_*` arrays were created.
 
 Final accuracy was 0.95287.
 
